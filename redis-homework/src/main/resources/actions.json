@@ -1,0 +1,88 @@
+{
+  "actions": [
+    {
+      "name": "INCR_USER",
+      "describe": "user计数加1",
+      "retrieve": [
+        {
+          "counterName": "showUserNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "incrUserNum"
+        }
+      ]
+    },
+    {
+      "name": "DECR_USER",
+      "describe": "user计数减1",
+      "retrieve": [
+        {
+          "counterName": "showUserNum"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "decrUserNum"
+        }
+      ]
+    },
+    {
+      "name": "INCR_USER_FREQ",
+      "describe": "用户时段上线数增加",
+      "retrieve": [
+        {
+          "counterName": "showUserFreq"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "incrUserFreq"
+        }
+      ]
+    },
+    {
+      "name": "DECR_USER_FREQ",
+      "describe": "用户时段上线数减少",
+      "retrieve": [
+        {
+          "counterName": "showUserFreq"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "decrUserFreq"
+        }
+      ]
+    },
+    {
+      "name": "ADD_STRING",
+      "describe": "插入String",
+      "retrieve": [
+        {
+          "counterName": "showString"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addString"
+        }
+      ]
+    },
+    {
+      "name": "ADD_LIST",
+      "describe": "添加list中的项",
+      "retrieve": [
+        {
+          "counterName": "showList"
+        }
+      ],
+      "save": [
+        {
+          "counterName": "addList"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "counters": [
+    {
+      "counterName": "incrUserNum",
+      "counterIndex": "1",
+      "type": "num",
+      "keyFields": "User",
+      "valueFields": "4"
+    },
+    {
+      "counterName": "decrUserNum",
+      "counterIndex": "2",
+      "type": "num",
+      "keyFields": "User",
+      "valueFields": "-1"
+    },
+    {
+      "counterName": "showUserNum",
+      "counterIndex": "3",
+      "type": "num",
+      "keyFields": "User"
+    },
+    {
+      "counterName": "showUserFreq",
+      "counterIndex": "4",
+      "type": "freq",
+      "keyFields": "User1000",
+      "fields": "202011221200 202011221300"
+    },
+    {
+      "counterName": "incrUserFreq",
+      "counterIndex": "5",
+      "type": "freq",
+      "keyFields": "User1000",
+      "fields": "202011221244",
+      "valueFields": "1"
+    },
+    {
+      "counterName": "decrUserFreq",
+      "counterIndex": "6",
+      "type": "freq",
+      "keyFields": "User1000",
+      "fields": "202011221255",
+      "valueFields": "-2"
+    },
+    {
+      "counterName": "showString",
+      "counterIndex": "7",
+      "type": "str",
+      "keyFields": "stringExample"
+    },
+    {
+      "counterName": "addString",
+      "counterIndex": "8",
+      "type": "str",
+      "keyFields": "stringExample",
+      "valueFields": "test"
+    },
+    {
+      "counterName": "showList",
+      "counterIndex": "9",
+      "type": "list",
+      "keyFields": "user"
+    },
+    {
+      "counterName": "addList",
+      "counterIndex": "10",
+      "type": "list",
+      "keyFields": "userList",
+      "valueFields": "test"
+    }
+  ]
+}
