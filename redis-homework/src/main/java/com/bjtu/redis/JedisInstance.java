@@ -25,7 +25,6 @@ public class JedisInstance {
             return jedisPool;
         }
     }
- 
     //对外暴露一个获取User对象的静态方法
     public static JedisPool getInstance(){
         return SingletonEnum.INSTANCE.getInstnce();

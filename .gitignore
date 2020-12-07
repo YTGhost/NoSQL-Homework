@@ -2,3 +2,4 @@ problem/.idea
 problem/out
 redis-homework/.idea
 redis-homework/target
+.DS_Store
