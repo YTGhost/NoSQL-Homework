@@ -43,8 +43,6 @@ public class Main {
             counterMap.clear();
             actionMap.clear();
             // 获取actions和counters的json配置文件
-//            String actionsPath = ClassLoader.getSystemResource("actions.json").getPath();
-//            String countersPath = ClassLoader.getSystemResource("counters.json").getPath();
             String actionsPath = "src/main/resources/actions.json";
             String countersPath = "src/main/resources/counters.json";
 

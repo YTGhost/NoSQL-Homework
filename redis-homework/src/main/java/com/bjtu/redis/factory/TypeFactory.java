@@ -18,8 +18,6 @@ public class TypeFactory {
         typeResolveMap.put("freq", new FreqResolver());
         typeResolveMap.put("str", new StrResolver());
         typeResolveMap.put("list", new ListResolver());
-        typeResolveMap.put("set", new SetResolver());
-        typeResolveMap.put("zset", new ZsetResolver());
     }
 
     public TypeResolver getResolver(String type, CounterSpec counterSpec) {
